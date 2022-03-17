@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background-color: #FAFAD2;
+    font-family: 'Roboto Slab', serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.center{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap{
+    margin-top: 50px;
+    width: 1200px;
+    background-color: white;
+    height: 1600px;
+    border-radius: 20px;
+    outline: 1px solid gray;
+}
+.top{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.note{
+    margin-left: 20px;
+}
+.first , .second , .third , .fourth{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 1100px;
+}
+fieldset{
+    padding-left: 15px;
+}
+.first input{
+    margin-top: 20px;
+}
+.first input[type="number"]{
+    width: 150px;
+}
+.second{
+    padding: 15px;
+    width: 1070px;
+    outline: 1px solid gray;
+}
+.second input{
+    margin-top: 20px;
+}
+.second input:last-child{
+    margin-bottom: 20px;
+}
+.third{
+    padding-left: 20px;
+    width: 1080px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    outline: 1px solid gray;
+}
+.third select{
+    margin-right: 20px;
+}
+.fourth{
+    width: 1100px;
+}
+.fourth p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fourth #word{
+    width: 300px;
+    height: 100px;
+}
+.fourth textarea:last-child{
+    margin-bottom: 30px;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    height: 150px;
+}
+.but button{
+    width: 250px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    font-size: 23px;
+}
